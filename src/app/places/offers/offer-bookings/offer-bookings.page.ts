@@ -30,7 +30,7 @@ export class OfferBookingsPage implements OnInit {
       if (place && place.title && place.description && place.imageUrl && typeof place.price === 'number') {
         this.place = place;
       } else {
-        // Handle the case where place or any of its properties are undefined or invalid
+
         console.error('Invalid place data');
       }
     });
